@@ -1,0 +1,8 @@
+{
+  "name": "twilio-serverless-ivr",
+  "version": "1.0.-",
+  "description": "Forwards calls to my twilio number anywhere in the world at local rates.",
+  "devDependencies": {
+    "@twilio-labs/serverless-twilio-runtime": "^2.0.1"
+  }
+}
