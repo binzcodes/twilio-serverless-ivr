@@ -34,3 +34,4 @@ Configure phone numbers in [Twilio Console](https://console.twilio.com/) selecti
 
 ## Further reading
 * [github.com/twilio-labs/serverless-framework-integration](https://github.com/twilio-labs/serverless-framework-integration).
+- [https://github.com/marketplace/actions/serverless](https://github.com/marketplace/actions/serverless)
