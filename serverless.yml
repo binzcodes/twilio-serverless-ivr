@@ -1,4 +1,4 @@
-service: twilio-node-forward-call
+service: twilio-serverless-ivr
 
 provider:
   name: twilio
@@ -23,10 +23,10 @@ plugins:
   - '@twilio-labs/serverless-twilio-runtime'
 functions:
   # Function name
-  forward-call:
+  handle-inbound:
     # Path to the JS handler function in the project (without file extension '.js')
-    handler: forward-call
+    handler: handle-inbound
     # URL path of the function after deployment
-    path: /forward-call
+    path: /handle-inbound
     # visibility of the function (can be "public" or "protected")
     access: public
