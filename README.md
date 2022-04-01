@@ -32,7 +32,10 @@ Expected response
 
 Configure phone numbers in [Twilio Console](https://console.twilio.com/) selecting  Function and this service
 
+## TODO:
+- fix [github actions](https://github.com/marketplace/actions/serverless)
+
 ## Further reading
 * [github.com/twilio-labs/serverless-framework-integration](https://github.com/twilio-labs/serverless-framework-integration).
-- [https://github.com/marketplace/actions/serverless](https://github.com/marketplace/actions/serverless)
+- [serverless docs on CI/CD](https://www.serverless.com/framework/docs/guides/cicd/running-in-your-own-cicd)
 - Due to poor actions support from sls it's likely sensible to [move to twilio-cli](https://www.twilio.com/blog/an-introduction-to-ci-cd-for-twilio-functions-using-github-actions) or host TwiML function on aws
