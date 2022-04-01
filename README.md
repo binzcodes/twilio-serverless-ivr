@@ -35,3 +35,4 @@ Configure phone numbers in [Twilio Console](https://console.twilio.com/) selecti
 ## Further reading
 * [github.com/twilio-labs/serverless-framework-integration](https://github.com/twilio-labs/serverless-framework-integration).
 - [https://github.com/marketplace/actions/serverless](https://github.com/marketplace/actions/serverless)
+- Due to poor actions support from sls it's likely sensible to [move to twilio-cli](https://www.twilio.com/blog/an-introduction-to-ci-cd-for-twilio-functions-using-github-actions) or host TwiML function on aws
